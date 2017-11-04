@@ -1,0 +1,72 @@
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-style: inherit;
+  font-family: Montserrat,Arial,sans-serif !important;
+}
+
+h1, .h1 {
+	@include type-setting(6);
+	margin: 0 0 $base-line-height 0;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+h2, .h2 {
+	@include type-setting(3);
+	margin: 0 0 $base-line-height 0;
+	text-align: center;
+	font-weight: 700;
+}
+
+h3, .h3 {
+	@include type-setting(2);
+	margin: 0;
+}
+
+h4, .h4 {
+	@include type-setting(0);
+	margin: $base-line-height 0;
+}
+
+h5, .h5 { 
+	@include type-setting(1);
+	margin: 0;
+	font-weight: 700;
+}
+
+h6, .h6 {
+	@include type-setting(0);
+	margin: $base-line-height 0 0 0;
+}
+
+p {
+	@include type-setting(0);
+}
+
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0;
+  margin-bottom: $base-line-height;
+}
+
+ul ul, ol ol, ul ol, ol ul{
+	margin-left: $base-line-height;
+}
+
+li {
+	list-style: none;
+}
+
+a { 
+	cursor: pointer;
+	color: $primary-color;
+}
+
+a:hover, a:focus, a:active { 
+	text-decoration: none;
+	color: $primary-color-lighten;
+}
+
+@media (max-width: 992px) {
+	html {
+		font-size: 90%;
+	}
+}
