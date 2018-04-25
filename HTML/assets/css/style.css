@@ -484,6 +484,12 @@ a:hover, a:focus, a:active {
   line-height: 3rem;
 }
 
+.logo-picture {
+  width: 10rem;
+  height: auto;
+  margin: 0 auto;
+}
+
 /*
 * 8. Feature
 */
@@ -1073,7 +1079,7 @@ a:hover, a:focus, a:active {
 .gallery-item figure {
   position: relative;
   overflow: hidden;
-  background: rgba(11, 12, 14, 0.3);
+  background: transparent;
   text-align: center;
   height: 18rem;
 }
@@ -1167,7 +1173,7 @@ a:hover, a:focus, a:active {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #0B0C0E;
+  background: transparent;
   opacity: 0;
   -webkit-transition-duration: 0.5s;
   -moz-transition-duration: 0.5s;
@@ -1382,6 +1388,11 @@ a:hover, a:focus, a:active {
 
 .ticket-block .ticket ul li {
   text-align: center;
+}
+
+.form-group {
+  text-align: left;
+  color: #000000;
 }
 
 /*

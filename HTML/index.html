@@ -70,8 +70,8 @@
 						<li><a href="#team">Team</a></li>
 						<li><a href="#tickets">Training Plans</a></li>
 						<li><a href="#events">Events</a></li>
-						<li><a href="#classes">Classes</a></li>
-						<li><a href="#gallery">Shop</a></li>
+						<li><a href="#testimonials">Testimonials</a></li>
+						<li><a href="#store">Shop</a></li>
 					</ul>
 				</div>
 
@@ -103,7 +103,7 @@
 							<div class="col-md-12 full-screen">
 
 								<!-- Title -->
-								<h1>THE RIPPLE EFFECT: 
+								<h1>THE RIPPLE EFFECT:
 									<br />
 									Inspire those to inspire others</h1>
 
@@ -119,7 +119,7 @@
 								<!-- Start Navigation -->
 								<nav id="navigation">
 									<ul>
-										<li><a href="#about" title="Overpower" class="button button-normal">Start Training</a></li>
+										<li><a href="#tickets" title="Overpower" class="button button-normal">Start Training</a></li>
 									</ul>
 								</nav>
 								<!-- End Navigation -->
@@ -187,7 +187,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 block team">
-						<h2>Sol Force Trainers</h2>
+						<h2><img class="logo-picture" src="./assets/images/Sol-Force-Tag.png"/>Trainers</h2>
 
 						<div class="team-carousel team-slider">
 
@@ -273,9 +273,10 @@
 				<div class="row">
 					<div class="col-md-12 block quote">
 						<i class="fa fa-quote-right" aria-hidden="true"></i>
-						<p>Lorem ipsum dolor sit amet. Earum rerum facilis est laborum et expedita. Officia deserunt mollitia animi. Quisquam est, omnis iste natus error sit voluptatem.</p>
+						<p>"I looked back at my day 1 photo and could not believe the transformation. I set my goal and Solinda helped me by staying on top of things and gave me the tools to use."</p>
+						<i class="fa fa-quote-left" aria-hidden="true"></i>
 						<p class="author">
-							Lolo Bricher
+							Macario 
 						</p>
 					</div>
 				</div>
@@ -287,7 +288,7 @@
 		<section id="tickets" class="container-fluid ticket-section">
 			<div class="container">
 				<div class="row">
-					<h2>Training Plans</h2>
+					<h2><img class="logo-picture" src="./assets/images/Sol-Force-Tag.png" />Training Plans</h2>
 
 					<div class="tickets">
 
@@ -296,32 +297,65 @@
 							<div class="wrap">
 								<div class="line"><span></span></div>
 								<div class="ticket">
-									<span class="type">30 Day Meal Plan</span>
-									<p>$24.99</p>
-									<ul>
-										<li>4 Week Customized Meal Plan</li>
-										<li>Tailored to YOUR fitness goals</li>
-									</ul>
-									<a href="#" title="Sing" class="button button-normal">Sing Up Now</a>
-								</div>
-							</div>
-						</div>
-						<!-- End Ticket 1 -->
-
-						<!-- Start Ticket 1 -->
-						<div class="col-md-3 ticket-block">
-							<div class="wrap">
-								<div class="line"><span></span></div>
-								<div class="ticket">
 									<span class="type">Personal Training</span>
-									<p>Prices Vary</p>
 									<ul>
 										<li>See Trainers for rates and availability.</li>
 										<li>
 											All Sol Force trainers provide personal training services at the House of Gainz Gym. 610 N. Austin Ave. Georgetown, TX 78626.
 										</li>
 									</ul>
-									<a href="#" title="Sing" class="button button-normal">Sing Up Now</a>
+									<a href="#" title="Sing" class="button button-normal" type="button" data-toggle="modal" data-target="#exampleModalCenter">Sing Up Now</a>
+									<!-- Button trigger modal -->
+
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									  <div class="modal-dialog modal-dialog-centered" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <h5 class="modal-title" id="exampleModalCenterTitle">Please fill out this form.</h5>
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+									      </div>
+									      <div class="modal-body">
+													<form>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Name</label>
+															<textarea class="form-control" id="namemodaltext" rows="1"></textarea>
+														</div>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Email</label>
+															<textarea class="form-control" id="emailmodaltext" rows="1"></textarea>
+														</div>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Phone</label>
+															<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+														</div>
+													   <div class="form-group">
+													     <label for="exampleFormControlSelect1">Who would you like to train with?</label>
+													     <select class="form-control" id="exampleFormControlSelect1">
+													       <option>Zack Blakeney</option>
+													       <option>Solinda Blakeney</option>
+													       <option>Nemo Hong</option>
+													     </select>
+															 <div class="form-group">
+	 															<label for="exampleFormControlTextarea1">What time are you wanting to train?</label>
+	 															<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+	 														</div>
+															<div class="form-group">
+																<label for="exampleFormControlTextarea1">Purpose for change?</label>
+																<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+															</div>
+													   </div>
+													 </form>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Sign Up</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -333,14 +367,64 @@
 								<div class="line"><span></span></div>
 								<div class="ticket">
 									<span class="type">12 Week Online Training Package</span>
-									<p>$600</p>
 									<ul>
 										<li>Customized Meal Plans</li>
 										<li>Customized Workout and Cardio Regimens</li>
 										<li>Supplementation Suggestions</li>
 										<li>Weekly Accountability Check-ins and Personal Interaction and Feedback from Your Trainer</li>
 									</ul>
-									<a href="#" title="Sing" class="button button-normal">Sing Up Now</a>
+									<a href="#" title="Sing" class="button button-normal" type="button" data-toggle="modal" data-target="#exampleModalCenter">Sing Up Now</a>
+									<!-- Button trigger modal -->
+
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									  <div class="modal-dialog modal-dialog-centered" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+									      </div>
+									      <div class="modal-body">
+													<form>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Name</label>
+															<textarea class="form-control" id="namemodaltext" rows="1"></textarea>
+														</div>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Email</label>
+															<textarea class="form-control" id="emailmodaltext" rows="1"></textarea>
+														</div>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Phone</label>
+															<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+														</div>
+													   <div class="form-group">
+													     <label for="exampleFormControlSelect1">Who would you like to train with?</label>
+													     <select class="form-control" id="exampleFormControlSelect1">
+													       <option>Zack Blakeney</option>
+													       <option>Solinda Blakeney</option>
+													       <option>Nemo Hong</option>
+													     </select>
+															 <div class="form-group">
+	 															<label for="exampleFormControlTextarea1">What time are you wanting to train?</label>
+	 															<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+	 														</div>
+															<div class="form-group">
+																<label for="exampleFormControlTextarea1">Purpose for change?</label>
+																<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+															</div>
+													   </div>
+													 </form>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Save changes</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -352,7 +436,6 @@
 								<div class="line"><span></span></div>
 								<div class="ticket">
 									<span class="type">Contest Preparation</span>
-									<p>$850</p>
 									<ul>
 										<li>Choose your plan</li>
 										<li>Customized Meal Plans</li>
@@ -361,7 +444,57 @@
 										<li>Posing Classes and Peak Week Perfection</li>
 										<li>Weekly Accountability Check-ins and Personal Interaction and Feedback from Zack and Solinda</li>
 									</ul>
-									<a href="#" title="Sing" class="button button-normal">Sing Up Now</a>
+									<a href="#" title="Sing" class="button button-normal" type="button" data-toggle="modal" data-target="#exampleModalCenter">Sing Up Now</a>
+									<!-- Button trigger modal -->
+
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									  <div class="modal-dialog modal-dialog-centered" role="document">
+									    <div class="modal-content">
+									      <div class="modal-header">
+									        <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+									        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									          <span aria-hidden="true">&times;</span>
+									        </button>
+									      </div>
+									      <div class="modal-body">
+													<form>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Name</label>
+															<textarea class="form-control" id="namemodaltext" rows="1"></textarea>
+														</div>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Email</label>
+															<textarea class="form-control" id="emailmodaltext" rows="1"></textarea>
+														</div>
+														<div class="form-group">
+															<label for="exampleFormControlTextarea1">Phone</label>
+															<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+														</div>
+													   <div class="form-group">
+													     <label for="exampleFormControlSelect1">Who would you like to train with?</label>
+													     <select class="form-control" id="exampleFormControlSelect1">
+													       <option>Zack Blakeney</option>
+													       <option>Solinda Blakeney</option>
+													     </select>
+															 <div class="form-group">
+	 															<label for="exampleFormControlTextarea1">What time are you wanting to train?</label>
+	 															<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+	 														</div>
+															<div class="form-group">
+																<label for="exampleFormControlTextarea1">Purpose for change?</label>
+																<textarea class="form-control" id="phonemodaltext" rows="1"></textarea>
+															</div>
+													   </div>
+													 </form>
+									      </div>
+									      <div class="modal-footer">
+									        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									        <button type="button" class="btn btn-primary">Save changes</button>
+									      </div>
+									    </div>
+									  </div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -374,11 +507,29 @@
 		</section>
 		<!-- End Ticket -->
 
+		<!-- Start Quote -->
+		<section id="quote" class="container-fluid section-block dark-block quote-block">
+			<div class="quote-overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 block quote">
+						<i class="fa fa-quote-right" aria-hidden="true"></i>
+						<p>Through the time spent with Zack and the Sol Force family, I was able to achieve my goals. I also didn’t just get training with Zack, I also able to built a friendship and a person I can always turn to when that little person in your head is telling you to give up!"</p>
+						<i class="fa fa-quote-left" aria-hidden="true"></i>
+						<p class="author">
+							Joe
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Quote -->
+
 		<!-- Start Events -->
 		<section id="events" class="container-fluid events-posts">
 			<div class="container">
 				<div class="row">
-					<h2>Events</h2>
+					<h2><img class="logo-picture" src="./assets/images/Sol-Force-Tag.png" />Events</h2>
 					<p>Lorem ipsum dolor sit amet earum rerum facilis est</p>
 
 					<div id="post-1" class="col-md-4 post">
@@ -419,120 +570,167 @@
 		</section>
 		<!-- End Events -->
 
-		<!-- Start Classes -->
-		<section id="classes" class="container-fluid section-block blog-classes">
+						<!-- Start Gallery -->
+						<section id="testimonials" class="container-fluid section-block">
+							<div class="container">
+								<div class="row">
+									<div class="col-md-12 block gallery">
+										<h2><img class="logo-picture" src="./assets/images/Sol-Force-Tag.png" />Transformations</h2>
+
+										<div class="col-md-12 gallery-block">
+
+											<div id="gallery-item-1" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/Joe.png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/Joe.png" title="I was on a roll losing weight, going from the 280's down to 230. Felt great to be able to able to get down to that weight,but all good stories come to an end and my came when I hit a wall. I couldn’t lose anymore weight and I didn’t even want to go work out or even diet right.  Zack and I were already talking about training prior to me losing my motivation to workout, so I reached out to him and got it done! Zack changed my body through diets and detailed training regiments. I was able to get down to 179lbs. Through the time spent with Zack and the Sol Force family, I was able to achieve my goals. I also didn’t just get training with Zack, I also able to built a friendship and a person I can always turn to when that little person in your head is telling you to give up!">Joe</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+
+											<div id="gallery-item-2" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/Allison.png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/Allison.png" title="I was not an easy client. Between my several medical conditions and medication, I was over weight and stuck. I gave Solinda a shot to prove to myself it couldn’t be done and I lost 22 lbs in 12 weeks! She and Zack changed my life! Because of them I was healthy enough to get pregnant! We have been trying for a while, thank you!">Allison</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+
+											<div id="gallery-item-3" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/Macario.png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/Macario.png" title="Diet was always my main thing that I needed help with. When my wife was pregnant with our son, I fell off track and ate anything that came to mind and gained an insane amount of weight. I went from weighing 165 pounds to 181 pounds. The weight made me very exhausted, lazy, and became too comfortable with the way things were going. That all had to change right away. The last thing I want is to not be the active father that my son needs and deserves to have. I did not want my health to go down the drain. I've seen some of Solinda's clients and whether they were competitors or just trying to live a healthier lifestyle, she has stuck by them all the way through to accomplish their goals. So I ended up reaching out to Solinda to find out information on what all she had to offer and I was impressed. She laid out a meal plan and training plan for me and I had to check in with her every week for accountability as she mixed up my plans. At the end of my 12 week program, I dropped down to 164 pounds and toned up very well. At that time, I looked back at my day 1 photo and could not believe the transformation. I set my goal and Solinda helped me by staying on top of things and gave me the tools to use. Now, my new goal is to compete in my first bodybuilding competition in 2018 and I will be coming back to Solinda to help get me there. I can't wait to see what the final transformation is going to look like!">Macario</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+
+											<div id="gallery-item-4" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/BRENNAN (1).png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/BRENNAN (1).png" title="My experience with the coaches of Sol Force; Nemo, Solinda and Zack has been nothing short of amazing. They are very personable and easy to approach people. They respond rapidly to any question and do all they can to ensure that you understand their response. They really take the time to get to know you as an individual and use that to find the most suitable way to work with you. Most importantly the coaches understand the value of knowledge and are always willing to share it. They led me to my fitness goal and then brought me beyond my goal to achieve things I had never thought I would.">Brennan</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+
+											<div id="gallery-item-5" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/Jacob.png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/Jacob.png" title="Zack, you have brought me to strengths and physiques I have never been able to reach on my own. With your help I have reawakened a discipline that had been lost to me. Most importantly though, you have provided me an inspiration that reaches beyond working out and improving my physical form; I now have the power to transfer that inspiration to others. Thank you.">Jacob</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+
+											<div id="gallery-item-6" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/Corey.png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/Corey.png" title="There are three elements that I believe of myself. That is the mind body and soul.   As far as life goes I lost a lot of motivation and focus with my body but continued to stay active in the gym. Thereafter, I came to realization that 2 out of 3 elements of me was being damage by that 1 missing element called body. I then met a Sol Force member in my local gym who seen me a lot and gave me tips but I was highly impressed with the progress the Sol Force member showed me throughout his training with Zack Blakeney. Long story short I joined the Sol Force team and at this current time I have balance in my mind body and soul. I am focused, motivated, improved in business, and lastly feel better than ever. I appreciate the Sol Force team and members for helping refine these elements.">Corey</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+											
+											<div id="gallery-item-6" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/Jessica.png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/Jessica.png" title="Nemo has supported my weight loss and fitness journey beyond my expectations. I started training in the Fall of 2017; with his ability to motivate, push, and support me, I was able to lose 17 lbs in 8 weeks! During that 8 weeks, my body changed drastically, and I felt so much more energetic, enthusiastic, and proud of my body. I know that without him as my trainer, I would not have been as successful. He is always happy and willing to answer my questions about foods, muscle groups, and best workouts for me. In addition to his ability to provide clear health information, he is a great role model and walks the talk!">Jessica</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+											
+											<div id="gallery-item-6" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/Alan.png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/Alan.png" title="As a busy senior engineer in a multinational corporation, and having recently turned 55, I had a growing dissatisfaction with my general low-level of fitness. In early 2017, I decided to get serious and do something about it. I joined the House of Gainz gym in Georgetown and began working out with Nemo Hong (SolForce). My goal was to lose 45 lbs before the end of 2017. With Nemo’s workout help and dietary plan, I built muscle, gained fitness, and hit my weight loss goal two months early. I heartily recommend Nemo, Zack, and Solinda to anyone wishing to improve their health and fitness.">Alan</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+											
+											<div id="gallery-item-6" class="col-md-4 col-sm-6 gallery-item">
+												<figure class="hover-effect">
+													<div class="gallery-overlay"></div>
+													<img src="./assets/images/Kathy.png" alt="thumb"><!-- thumb image -->
+													<figcaption>
+														<div class="details-container">
+															<a class="details-title" href="./assets/images/Kathy.png" title="I am 70 years old and recovering from total knee replacement on both knees. After using all of the physical therapy that Medicare and my insurance would allow, I still was just barely walking. My trainer, Nemo Hong, with Sol Force at the House of Gainz has me getting down on the floor and then getting myself up, climbing stairs, walking beautifully, and dancing. I feel better and all my numbers are improved (blood pressure, cholesterol, pulse rate, etc. ). Nemo is a perfect gentleman, keeps me upbeat, and never gives me a boring routine. I hope you are lucky enough to get some time with him.">Kathy</a><!-- big image -->
+														</div><!-- End .details-container -->
+													</figcaption>
+												</figure>
+											</div><!-- End .gallery-item -->
+
+											<div class="clearfix"></div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- End Gallery -->
+
+		<!-- Start Quote -->
+		<section id="quote" class="container-fluid section-block dark-block quote-block">
+			<div class="quote-overlay"></div>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-12 block partners">
-						<h2>Classes</h2>
-						<p>Lorem ipsum dolor sit ametearum rerum facilis est</p>
-
-						<div class="classes-carousel classes-slider">
-
-							<!-- Start Day 1 -->
-							<div id="day-1" class="day odd">
-								<h4>Sunday</h4>
-								<p>18</p>
-								<a htef="#" title="2 classes" class="button button-classes">2 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 1 -->
-
-							<!-- Start Day 2 -->
-							<div id="day-2" class="day even">
-								<h4>Monday</h4>
-								<p>19</p>
-								<a htef="#" title="2 classes" class="button button-classes">5 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 2 -->
-
-							<!-- Start Day 3 -->
-							<div id="day-3" class="day odd">
-								<h4>Tuesday</h4>
-								<p>20</p>
-								<a htef="#" title="2 classes" class="button button-classes">2 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 3 -->
-
-							<!-- Start Day 4 -->
-							<div id="day-4" class="day even">
-								<h4>Wednesday</h4>
-								<p>21</p>
-								<a htef="#" title="2 classes" class="button button-classes">3 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 4 -->
-
-							<!-- Start Day 5 -->
-							<div id="day-5" class="day odd">
-								<h4>Thursday</h4>
-								<p>22</p>
-								<a htef="#" title="2 classes" class="button button-classes">2 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 5 -->
-
-							<!-- Start Day 6 -->
-							<div id="day-6" class="day even">
-								<h4>Friday</h4>
-								<p>23</p>
-								<a htef="#" title="2 classes" class="button button-classes">1 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 6 -->
-
-							<!-- Start Day 7 -->
-							<div id="day-7" class="day odd">
-								<h4>Saturday</h4>
-								<p>24</p>
-								<a htef="#" title="2 classes" class="button button-classes">4 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 7 -->
-
-							<!-- Start Day 8 -->
-							<div id="day-8" class="day even">
-								<h4>Sunday</h4>
-								<p>25</p>
-								<a htef="#" title="2 classes" class="button button-classes">2 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 8 -->
-
-							<!-- Start Day 9 -->
-							<div id="day-9" class="day odd">
-								<h4>Monday</h4>
-								<p>26</p>
-								<a htef="#" title="2 classes" class="button button-classes">5 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 9 -->
-
-							<!-- Start Day 10 -->
-							<div id="day-10" class="day even">
-								<h4>Tuesday</h4>
-								<p>20</p>
-								<a htef="#" title="2 classes" class="button button-classes">2 classes</a>
-							</div><!-- End .day -->
-							<!-- End Day 10 -->
-
-						</div>
-
+					<div class="col-md-12 block quote">
+						<i class="fa fa-quote-right" aria-hidden="true"></i>
+						<p>"Nemo has supported my weight loss and fitness journey beyond my expectations. I started training in the Fall of 2017; with his ability to motivate, push, and support me, I was able to lose 17 lbs in 8 weeks! During that 8 weeks, my body changed drastically, and I felt so much more energetic, enthusiastic, and proud of my body. I know that without him as my trainer, I would not have been as successful.</p>
+						<i class="fa fa-quote-left" aria-hidden="true"></i>
+						<p class="author">
+							Jessica
+						</p>
 					</div>
 				</div>
 			</div>
 		</section>
-
+		<!-- End Quote -->
+		
 		<!-- Start Gallery -->
 		<section id="gallery" class="container-fluid section-block">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 block gallery">
-						<h2>Sol Force Atheletes</h2>
-						<p>Lorem ipsum dolor sit ametearum rerum facilis est</p>
+						<h2><img class="logo-picture" src="./assets/images/Sol-Force-Tag.png"/>Competitors</h2>
 
 						<div class="col-md-12 gallery-block">
 
 							<div id="gallery-item-1" class="col-md-4 col-sm-6 gallery-item">
 								<figure class="hover-effect">
 									<div class="gallery-overlay"></div>
-									<img src="./assets/images/6.png" alt="thumb"><!-- thumb image -->
+									<img src="./assets/images/Arnie.jpg" alt="thumb"><!-- thumb image -->
 									<figcaption>
 										<div class="details-container">
-											<a class="details-title" href="http://placeholders.org/1100x900/f9f9f9/fc3" title="John Smith">John Smith</a><!-- big image -->
+											<a class="details-title" href="./assets/images/Arnie.jpg" title="Under Zack's training regime and guidance I was able to reach a level of physique I never thought capable of. Pushing my limits and setting the standard of intensity and mindset to separate me from the ordinary and grow beyond my expectations. Sol Force is the source of my growth in my physique, strength, confidence and friendship. They have earned my trust and loyalty, and we shall continue to grow together.">Arnie Ybarra</a><!-- big image -->
 										</div><!-- End .details-container -->
 									</figcaption>
 								</figure>
@@ -541,10 +739,10 @@
 							<div id="gallery-item-2" class="col-md-4 col-sm-6 gallery-item">
 								<figure class="hover-effect">
 									<div class="gallery-overlay"></div>
-									<img src="./assets/images/12.png" alt="thumb"><!-- thumb image -->
+									<img src="./assets/images/Mikaela.jpg" alt="thumb"><!-- thumb image -->
 									<figcaption>
 										<div class="details-container">
-											<a class="details-title" href="http://placeholders.org/1100x900/f3f3f3/fc3" title="Jane Doe">Jane Doe</a><!-- big image -->
+											<a class="details-title" href="./assets/images/Mikaela.jpg" title="I’ve been working with Solinda and Zack Blakeney since 2014 and am about to start my next contest prep with them. These two are the most genuine people you will meet and support you 100% of the way. They are very knowledgeable and continuously evolve to provide the best for their clients. Aside from guiding me through prep, they have guided me through my early teen years into early adult hood and continue to help me grow and mature. I’m  looking forward to another year under their wing!">Mikaela Lindsey</a><!-- big image -->
 										</div><!-- End .details-container -->
 									</figcaption>
 								</figure>
@@ -553,10 +751,10 @@
 							<div id="gallery-item-3" class="col-md-4 col-sm-6 gallery-item">
 								<figure class="hover-effect">
 									<div class="gallery-overlay"></div>
-									<img src="./assets/images/facebook_1485442520137.jpg" alt="thumb"><!-- thumb image -->
+									<img src="./assets/images/Dino.jpg" alt="thumb"><!-- thumb image -->
 									<figcaption>
 										<div class="details-container">
-											<a class="details-title" href="http://placeholders.org/1100x900/f9f9f9/fc3" title="Sam Johnson">Sam Johnson</a><!-- big image -->
+											<a class="details-title" href="./assets/images/Dino.jpg" title="Becoming part of the Sol Force team was the best decision I could have made when I decided to start bodybuilding. They created the best personalized meal/ exercise program to ensure I was bringing my best package on the national stage! Their passion for their athletes goes beyond anything I’ve ever experienced. They give you 110% of their time and effort during every session and ask for nothing less from you as well. I couldn’t have chosen a better team to pursue my pro card with.">Dino Estrada</a><!-- big image -->
 										</div><!-- End .details-container -->
 									</figcaption>
 								</figure>
@@ -565,10 +763,10 @@
 							<div id="gallery-item-4" class="col-md-4 col-sm-6 gallery-item">
 								<figure class="hover-effect">
 									<div class="gallery-overlay"></div>
-									<img src="./assets/images/6.png" alt="thumb"><!-- thumb image -->
+									<img src="./assets/images/Tyler.jpg" alt="thumb"><!-- thumb image -->
 									<figcaption>
 										<div class="details-container">
-											<a class="details-title" href="http://placeholders.org/1100x900/f9f9f9/fc3" title="John Smith">John Smith</a><!-- big image -->
+											<a class="details-title" href="./assets/images/Tyler.jpg" title="I reached out to Zack and Solinda after over 10 years of weight training because I wanted to take my health and physique to the next level. The team did not disappoint and I have learned more through 1 year of training with Zack then the 10 prior years. Each day is a new challenge and I have progressed more than I ever thought possible toward my goals thanks to the constant guidance, accountability and support from the Sol Force team. I have trained with other coaches, but have never felt more part of a family than with Zack and Solinda. Whether you are looking to take your body to the next level or just trying to get healthier, I highly recommend working with the guys at Sol Force!">Tyler Fluitt</a><!-- big image -->
 										</div><!-- End .details-container -->
 									</figcaption>
 								</figure>
@@ -577,10 +775,10 @@
 							<div id="gallery-item-5" class="col-md-4 col-sm-6 gallery-item">
 								<figure class="hover-effect">
 									<div class="gallery-overlay"></div>
-									<img src="./assets/images/12.png" alt="thumb"><!-- thumb image -->
+									<img src="./assets/images/Raychelle.jpg" alt="thumb"><!-- thumb image -->
 									<figcaption>
 										<div class="details-container">
-											<a class="details-title" href="http://placeholders.org/1100x900/f3f3f3/fc3" title="Jane Doe">Jane Doe</a><!-- big image -->
+											<a class="details-title" href="./assets/images/Raychelle.jpg" title="Solinda and Zack are awesome! I couldn’t and wouldn’t of wanted to do my first Figure Competition with any other coach. They helped me with so much and motivated me through the entire process, I can’t wait for my next prep to start.">Raychelle Means</a><!-- big image -->
 										</div><!-- End .details-container -->
 									</figcaption>
 								</figure>
@@ -589,14 +787,15 @@
 							<div id="gallery-item-6" class="col-md-4 col-sm-6 gallery-item">
 								<figure class="hover-effect">
 									<div class="gallery-overlay"></div>
-									<img src="./assets/images/6.png" alt="thumb"><!-- thumb image -->
+									<img src="./assets/images/Alex.jpg" alt="thumb"><!-- thumb image -->
 									<figcaption>
 										<div class="details-container">
-											<a class="details-title" href="http://placeholders.org/1100x900/f9f9f9/fc3" title="John Smith">John Smith</a><!-- big image --> -->
+											<a class="details-title" href="./assets/images/Alex.jpg" title="I’ve been a part of the SolForce Team for about a year now and I couldn’t be happier. Solinda and Zack are outstanding mentors.They answered any and every question of mine that came to mind. They provide not only physical support, but mental support in assuring that together, you will achieve your goals.">Alex Garcia</a><!-- big image -->
 										</div><!-- End .details-container -->
 									</figcaption>
 								</figure>
 							</div><!-- End .gallery-item -->
+							
 
 							<div class="clearfix"></div>
 
@@ -608,13 +807,14 @@
 		</section>
 		<!-- End Gallery -->
 
+
 		<!-- Start Partners -->
-		<section id="partners" class="container-fluid section-block gray-block">
+		<section id="store" class="container-fluid section-block gray-block">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 block partners">
-						<h2>Affiliates</h2>
-						<p>Lorem ipsum dolor sit ametearum rerum facilis est</p>
+						<h2><img class="logo-picture" src="./assets/images/Sol-Force-Tag.png" />Merch</h2>
+						<p>Rep the MOVEMENT</p>
 
 						<div class="partner-carousel partner-slider">
 
@@ -678,15 +878,15 @@
 
 
 		<!-- Start Twitter Block -->
-		<section id="twitter" class="container-fluid blog-twitter">
+		<!-- <section id="twitter" class="container-fluid blog-twitter">
 			<div class="twitter-header">
 				<i class="fa fa-twitter" aria-hidden="true"></i>
 			</div>
 
 			<!-- Twitter Post -->
-			<div id="twitter-w" class="twitter-post"></div>
+			<!-- <div id="twitter-w" class="twitter-post"></div> -->
 			<!-- End Twitter Post -->
-		</section>
+		<!-- </section> -->
 		<!-- End Twitter Block -->
 
 		<footer id="footer" class="container-fluid footer-section">
@@ -694,7 +894,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-5 block">
-						<h4>Sol Force</h4>
+						<h4><img class="logo-picture" src="./assets/images/Sol-Force-Tag.png" /></h4>
 						<p>Lorem ipsum dolor sit amet. Earum rerum facilis est laborum et expedita. Officia deserunt mollitia animi.</p>
 
 						<!-- Start Notify Form -->
@@ -711,9 +911,9 @@
 								</div>
 							</div>
 							<button id="submit" type="submit" class="button button-normal">Submit</button>
-						</form>
+						</form> 
 						<!-- End Notify Form -->
-					</div>
+					<!-- </div>
 
 					<div class="col-md-3 block">
 						<h4>Links</h4>
@@ -728,9 +928,9 @@
 							<li><a href="#">Events</a></li>
 							<li><a href="#">Classes</a></li>
 						</ul>
-					</div>
+					</div> -->
 
-					<div class="col-md-3 block">
+					<!-- <div class="col-md-3 block">
 						<h4>Social</h4>
 						<ul>
 							<li><a href="#">Facebook</a></li>
@@ -741,7 +941,7 @@
 			</div>
 		</footer>
 
-	</div> <!-- End .wrapper -->
+	</div> <!-- End .wrapper --> 
 	<!-- End Content -->
 
 <!-- Include JS -->
